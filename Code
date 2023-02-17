@@ -1,0 +1,32 @@
+package project1;
+
+import java.util.Scanner;
+
+public class demo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	   //reversing a string in java
+		Scanner sc = new Scanner(System.in);
+		System.out.println("String here:");
+		String scnd = sc.next();	
+		String v = "";
+		for(int i = scnd.length();i > 0;i--) {
+			//System.out.println(scnd.substring(i-1,i));
+			v += scnd.substring(i-1,i);
+		}
+		System.out.println("Reversed string:");
+		System.out.println(v);
+			
+		}
+		
+		
+	    
+	    
+	    
+	    
+		
+
+	}
+
+
